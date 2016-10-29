@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jordan Van Wyk's Site"
 date:   2016-09-29 22:47:18 -0400
 categories: jekyll update
 ---
