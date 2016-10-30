@@ -31,7 +31,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/58/Sunset_2007-1.jpg');
+  background-image: url('https://raw.githubusercontent.com/jordanvanwyk/jordanvanwyk.github.io/3fe2efbe4db7a0f061c351a79bd009c32eb65a03/_includes/DSCN0854.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -39,7 +39,7 @@ header p {
 }
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-size: 60rem;
   font-weight: 700;
   margin: 0;
   color: #fff;
@@ -62,7 +62,7 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #ffffff;
+  color: #fffff0;
   text-shadow: none;
   background-color: #bfd5bf;
 }
