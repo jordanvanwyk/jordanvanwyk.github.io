@@ -34,7 +34,7 @@ header p {
   background-image: url('https://raw.githubusercontent.com/jordanvanwyk/jordanvanwyk.github.io/3fe2efbe4db7a0f061c351a79bd009c32eb65a03/_includes/DSCN0854.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 550px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -62,14 +62,14 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fffff0;
+  color: #ffffff;
   text-shadow: none;
-  background-color: #bfd5bf;
+  background-color: #000000;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #bfc4ae
+  background-color: #bbccdd
 }
 
 .btn-secondary {
