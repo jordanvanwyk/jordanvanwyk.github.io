@@ -33,7 +33,7 @@ header p {
   align-items: center;
   background-image: url('https://raw.githubusercontent.com/jordanvanwyk/jordanvanwyk.github.io/3fe2efbe4db7a0f061c351a79bd009c32eb65a03/_includes/DSCN0854.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: #fff000;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
@@ -47,7 +47,7 @@ header p {
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: #fff000;
 }
 
 section .row img {
