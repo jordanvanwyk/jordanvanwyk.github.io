@@ -9,7 +9,7 @@ body {
 .container {
     padding-right: 15px;
     padding-left: 15px;
-    padding: 15px;
+    padding: 30px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -70,10 +70,10 @@ header nav {
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
-    border-bottom: 50px solid transparent;
+    border-bottom: 10px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: azure;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
@@ -81,7 +81,7 @@ header nav {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: azure;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -107,19 +107,19 @@ section .row img {
 .btn.btn-primary {
     border-radius: 2px;
     border: 0px;
-    color: #fff;
+    color: azure;
     text-shadow: none;
-    background-color: #fff;
+    background-color: azure;
 }
 
 .btn.btn-primary:hover {
     color: #ffffff;
-    background-color: rgb(180,110,130)
+    background-color: darkblue
 }
 
 .btn-secondary {
     background-color: #E8DFE0;
-    color: #ffffff;
+    color: azure;
     margin: 0 0 30px;
 }
 
