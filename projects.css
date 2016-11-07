@@ -64,7 +64,7 @@ header nav {
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
-    border-bottom: 1px solid transparent;
+    border-bottom: 50px solid transparent;
   }
   .navbar-custom .navbar-brand {
     color: white;
