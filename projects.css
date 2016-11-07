@@ -18,11 +18,10 @@ header .row, footer .row {
 
 header h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 800;
+    font-weight: bold;
     margin: 0;
     color: #fff
-    text-transform: uppercase;
-    font-size: 12px;
+    
 }
 
 header nav {
