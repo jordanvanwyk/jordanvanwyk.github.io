@@ -3,27 +3,36 @@ body {
     font-weight: 300;
 }
 
-@import bourbon {
+header {
+  height: 100vh;
+  background-image: url('https://raw.githubusercontent.com/jordanvanwyk/jordanvanwyk.github.io/3fe2efbe4db7a0f061c351a79bd009c32eb65a03/_includes/DSCN0854.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
-header {
-  height: 100vh
-  background:
-    image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/IMG_0235.jpg?raw=true)
-    size: cover
-    position: center
-  margin-bottom: 50px
-
-  display: flex
-  flex-direction: column
-  justify-content: center
-  align-items: center
-  text-align: center
-
-p
-  width: 600px
-  margin: 0 auto 20px
-    }
+p {
+  width: 600px;
+  margin: 0 auto 20px;
+}
 
 header .row, footer .row {
     display: flex;
