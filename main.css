@@ -102,6 +102,7 @@ section .row img {
 
 .col-md-6 {
     margin: 0 0 30px;
+    align-items: center;
 }
 
 .btn.btn-primary {
