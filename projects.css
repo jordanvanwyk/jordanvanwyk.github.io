@@ -3,8 +3,8 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.42857143;
-    color: whitesmoke;
-    background-color: #000112;
+    color:white;
+    background-color: rgba(20, 20, 22,1)
 }
 .container {
     padding-right: 15px;
