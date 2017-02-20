@@ -121,14 +121,20 @@ header p {
     padding: 0 20px;
     margin: 0;
 }
+
 element.style {
-       display: flex;
-    align-items: center;
-    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Chile-3.jpg?raw=true');
+    background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Chile-3.jpg?raw=true);
+}
+
+.intro-header {
+    background-color: #777777;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    color: #000;
-    height: 100vh;
-    text-shadow: 0.25px 0.25px 0.25px #050505;
+    -o-background-size: cover;
+    margin-bottom: 50px;
 }
 
 section .row img {
