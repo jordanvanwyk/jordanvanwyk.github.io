@@ -126,7 +126,7 @@ element.style {
     background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Chile-3.jpg?raw=true);
 }
 
-.intro-header {
+header.intro-header {
     background-color: #777777;
     background: no-repeat center center;
     background-attachment: scroll;
@@ -135,6 +135,21 @@ element.style {
     background-size: cover;
     -o-background-size: cover;
     margin-bottom: 50px;
+}
+normalize.less:33
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+bootstrap.css:1062
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
 }
 
 section .row img {
