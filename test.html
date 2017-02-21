@@ -1,41 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- 
-Hi there! If you're wondering, this website was created based off of Bootstrap's "Clean Blog" template, which you can find online with a quick search. It's a basic static site that is hosted using Github Pages. On my Github is a work in progress version of this using Angular 2 for dependancy injection. 
- -->
+<html>
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Jordan Van Wyk</title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hi, I'm Wilson Wu, and I'm an engineering student at the University of Waterloo.">
-    <meta name="author" content="Wilson Wu">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <title>Wilson Wu</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/wilson-wu.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <meta name="description" content="Jordan Van Wyk.">
+    <meta name="author" content="Jordan Van Wyk">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="photos.css">
 </head>
-
 <body>
-
-    <!-- Navigation -->
+	<!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,7 +21,7 @@ Hi there! If you're wondering, this website was created based off of Bootstrap's
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Wilson Wu</a>
+                <a class="navbar-brand" href="index.html">Jordan Van Wyk</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,16 +33,14 @@ Hi there! If you're wondering, this website was created based off of Bootstrap's
                     <li>
                         <a href="projects.html">Projects</a>
                     </li>
-                    <!--
                     <li>
-                        <a href="post.html">Sample Post</a>
-                    </li>
-                    -->
-                    <li>
-                        <a href="personal.html">Personal Life</a>
+                        <a href="experience.html">Experience</a>
                     </li>
                     <li>
-                        <a href="file/wilson_resume.pdf" target="_blank">Resume</a>
+                        <a href="photos.html">Photography</a>
+                    </li>
+                    <li>
+                        <a href="JordanVanWyk_Resume.pdf">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -73,105 +48,170 @@ Hi there! If you're wondering, this website was created based off of Bootstrap's
         </div>
         <!-- /.container -->
     </nav>
-
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Chile-3.jpg?raw=true')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="page-heading">
-                        <h1>Wilson Wu</h1>
-                        <hr class="small">
-                        <span class="subheading"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Main Content -->
+	<section class="jumbotron">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-3 col-sm-2" >
-                <img src="img/profile-bg.jpg" class="img-responsive img-circle" alt="Profile">
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-10 vertical-center">
-                <p style = "font-size: 16px;">I am an undergraduate Software Engineering 2021 student at the University of Waterloo. </p>
-                <p style = "font-size: 16px;">
-                    I am most experienced with C/C++ and Java, but I am also well versed with Python, JavaScript, and HTML/CSS. 
-                    With hardware, I develop my projects with Arduino and Raspberry PI, and comfortable with design tools like Unity, OpenCV, and Solid Edge.
-                    Nothing interests me more than creating new things; I strive to build and design things that can better the lives of others. 
-                    Some of my other hobbies include origami, swimming, violin, and powerlifting.
-                </p>
-                <p style = "font-size: 16px;"></p>
-                <p style = "font-size: 16px;">You can look at some of my past projects <a href="projects.html">here.</a></p>
-            </div>
-        </div>
+      <div class="row text-center">
+        <h2>Jordan Van Wyk</h2>
+        <h3>Portfolio</h3>
+      </div>
     </div>
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="https://www.facebook.com/wilson.c.wu" id="bottomIcon">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-square fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/WilsonCWu" id="bottomIcon">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-square fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/u/0/100953008824901184011/posts" id="bottomIcon">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-square fa-stack-2x"></i>
-                                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Email: wilsoncwu@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+  </section>
+ 
+ 
+  <section class="container">
+   
+   <div class="row">
+      <figure class="col-sm-12">
+        <p>Me</p>
+        <a href="http://michelleye.ca/photography/">
+		<img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Chile-3.jpg?raw=true"/>
+	      </a>
+      </figure>
     
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <div class="row">
+      <figure class="col-sm-6">
+        <p>Me</p>
+        <a href="http://michelleye.ca/photography/">
+		<img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Jordan.jpg?raw=true"/>
+	      </a>
+      </figure>
+	    
+      <figure class="col-sm-6">
+	      <h3>Services</h3>
+	      <h3></h3>
+	      <h4> Professional Head Shots: $10;</h4>
+	      <h4>Time: ~10 min;</h4>
+	      <h4>Quantity: Unlimited photos*</h4>
+	      <h4>_</h4>
+	      <h4>Group Shots: $40 (without headshots) + $5 per person for headshots**;</h4>
+	      <h4>Time: ~30 min;</h4>
+	      <h4>Quantity: Unlimited photos</h4>
+	      <h4>_</h4>
+	      <h4>Other Inquiries: Contact me about photo shoots, event photos, or to purchase full sized images found here.</h4>
+	      <h4>jordanvanwyk@outlook.com | +1 (226) 929-1136</h4>
+	      <h6>*Satisfaction Guaranteed. If you're not satisfied with the results we'll shoot until you are.</h6>
+      </figure>
+    </div>
+	  
+    <div class="row">    
+      <figure class="col-sm-6">
+        <p>Vivien</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Vivien-2.JPG?raw=true"/>
+      </figure>
+	    
+      <figure class="col-sm-6">
+        <p>Nolan</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Nolan%20(1).JPG?raw=true"/>
+      </figure>	    
+    </div>
+	  
+	<div class="row">
+      <figure class="col-sm-6">
+        <p>Zihan</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Zihan.jpg?raw=true"/>
+      </figure>
+	    
+      <figure class="col-sm-6">
+        <p>Vivien</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Vivien.jpg?raw=true"/>
+      </figure>
+		</div>
+	  
+	    <div class="row">
+      <figure class="col-sm-6">
+        <p>Michelle</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Michelle.jpg?raw=true"/>
+      </figure>  	    
+	    
+      <figure class="col-sm-6">
+        <p>Michelle</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Michelle%20tracks.jpg?raw=true"/>
+      </figure>
+	  </div>
+		    
+    <div class="row">
+      <figure class="col-sm-6">
+        <p>Machu Picchu</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Peru.jpg?raw=true"/>
+      </figure>
+	    
+      <figure class="col-sm-6">
+        <p>Panama City</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Panama%20(2).jpg?raw=true"/>
+      </figure>
+		    </div>
+	    
+	    <div class="row">
+      <figure class="col-sm-6">
+        <p>Cabo da roca</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Portugal.JPG?raw=true"/>
+      </figure>
+ 
+      <figure class="col-sm-6">
+        <p>Copacabana beach</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Brazil.JPG?raw=true"/>
+      </figure>
+	    </div>
+	    
+	    <div class="row">
+      <figure class="col-sm-6">
+        <p>Grand bend</p>
+        <a href="http://michelleye.ca/photography/">
+		<img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Grand_Bend_Sunset.JPG?raw=true"/>
+	      </a>
+      </figure>
+	    
+      <figure class="col-sm-6">
+        <p>Grand Bend</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Grand_Bend_Sparkler.JPG?raw=true"/>
+      </figure>
+	    </div>
+		    
+	    <div class="row">
+      <figure class="col-sm-6">
+        <p>Nuit Blanche</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Nuit_Blanche.JPG?raw=true"/>
+      </figure>
+	    
+      <figure class="col-sm-6">
+        <p>Grand Bend</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Grand_Bend.JPG?raw=true"/>
+      </figure>
+	    </div>
+	    
+	<div class="row">  
+      <figure class="col-sm-6">
+        <p>Buenos Aires</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Argentina.JPG?raw=true"/>
+		</figure>   
+      <figure class="col-sm-6">
+        <p>Toronto</p>
+        <img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Toronto%20(2).JPG?raw=true"/>
+      </figure>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    </div>
+	  
+  </section>
+  <footer class="container">
+    <div class="row">
+    	<p class="col-sm-4"> &copy; 2017 Jordan Van Wyk; All Rights Reserved</p>
+  		<ul class="col-sm-8">
+        <li class="col-sm-1">
+          <a href="https://twitter.com/jordanvw_"><img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/twitter-square-logo.png?raw=true">
+	  </a>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/wilson-wu.min.js"></script>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-82807257-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+        </li>
+        <li class="col-sm-1">
+	  <a href="https://ca.linkedin.com/in/jordanvanwyk"><img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/In-Black-75px-R.png?raw=true">
+	  </a>
+	</li>
+        <li class="col-sm-1">
+          <a href="https://www.instagram.com/vanwykjordan/"><img src="https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/glyph-logo_May2016.png?raw=true">
+	  </a>
+        </li>
+  		</ul>
+    </div>
+  </footer>
 
 </body>
-
 </html>
-<!-- bootstrap, code minifier -->
