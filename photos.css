@@ -129,8 +129,6 @@ section.header {
     align-items: center;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
-    background-size: cover;
-    background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Guayaquil-2.jpg?raw=true);
 }
 .jumbotron {
     display: flex;
