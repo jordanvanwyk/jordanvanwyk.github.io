@@ -121,7 +121,17 @@ header p {
     padding: 0 20px;
     margin: 0;
 }
-
+section.header {
+    /* padding-left: 15px; */
+    image-rendering: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    background-image: url(inspector-stylesheet);
+}
 .jumbotron {
     display: flex;
     align-items: center;
