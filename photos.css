@@ -130,12 +130,12 @@ section.header {
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
     background-size: cover;
-    background-image: url(inspector-stylesheet);
+    background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Guayaquil-2.jpg?raw=true);
 }
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Ecuador.jpg?raw=true');
+    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Guayaquil-2.jpg?raw=true');
     background-size: cover;
     color: #000;
     height: 100vh;
@@ -157,6 +157,13 @@ section.header {
 section .row img {
     margin: 0 0 30px;
     width: 100%;
+}
+
+img {
+    vertical-align: -webkit-baseline-middle;
+    image-rendering: auto;
+    -webkit-border-horizontal-spacing: inherit;
+    overflow-y: hidden;
 }
 
 .col-md-6 {
