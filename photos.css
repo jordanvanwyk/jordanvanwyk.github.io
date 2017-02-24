@@ -133,11 +133,11 @@ section.header {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Guayaquil-2.jpg?raw=true');
+    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Chile-3%20(2).jpg?raw=true');
     background-size: cover;
     color: #000;
     height: 100vh;
-    text-shadow: 0.25px 0.25px 0.25px #050505;
+    /* text-shadow: 0.25px 0.25px 0.25px #050505; */
 }
 
 .jumbotron h2 {
