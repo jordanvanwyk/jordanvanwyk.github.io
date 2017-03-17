@@ -4,7 +4,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color:white;
-    background: linear-gradient(180deg,black,white);
+    background: linear-gradient(90deg,black,white,black);
 }
 .container {
     padding-right: 15px;
