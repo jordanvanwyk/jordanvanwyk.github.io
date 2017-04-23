@@ -142,17 +142,20 @@ section.header {
 #j2 {
     display: flex;
     align-items: center;
-    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/h3.jpg?raw=true');
+    background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/h3.jpg?raw=true);
     background-size: cover;
     color: #000;
     height: 100vh;
+    background-position: center;
 }
 
 .jumbotron h2 {
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 400;
     margin: 0;
     color: #ffffff;
+    font-family: source sans pro;
+    font-style: normal;
 }
 
 .jumbotron h3 {
