@@ -133,7 +133,7 @@ section.header {
 #j1 {
     display: flex;
     align-items: center;
-    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/Chile-3%20(2).jpg?raw=true');
+    background-image: url('https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/h1.jpg?raw=true');
     background-size: cover;
     color: #000;
     height: 100vh;
@@ -145,7 +145,17 @@ section.header {
     background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/h3.jpg?raw=true);
     background-size: cover;
     color: #000;
-    height: 100vh;
+    height: 110vh;
+    background-position: center;
+}
+
+#j3 {
+    display: flex;
+    align-items: center;
+    background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/h7.jpg?raw=true);
+    background-size: cover;
+    color: #000;
+    height: 110vh;
     background-position: center;
 }
 
