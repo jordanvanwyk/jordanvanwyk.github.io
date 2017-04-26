@@ -159,6 +159,16 @@ section.header {
     background-position: center;
 }
 
+#jwork {
+    display: flex;
+    align-items: center;
+    background-image: url(https://github.com/jordanvanwyk/jordanvanwyk.github.io/blob/master/_includes/h5.jpg?raw=true);
+    background-size: cover;
+    color: #000;
+    height: 110vh;
+    background-position: center;
+}
+
 .jumbotron h2 {
     font-size: 60px;
     font-weight: 400;
