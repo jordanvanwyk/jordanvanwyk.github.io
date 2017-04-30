@@ -246,3 +246,9 @@ section.header {
     padding-left: 15px;
     image-rendering: auto;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+}
